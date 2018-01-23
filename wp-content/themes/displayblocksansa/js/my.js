@@ -154,6 +154,10 @@ $(window).load(function() {
       $( "#siteNotification" ).addClass( "animated fadeOutUp", function() {
           // Animation complete.
         });
+      $( "#content" ).addClass( "compacted", function() {
+          // Animation complete.
+        });
+
     }, 5000);
 });
 
