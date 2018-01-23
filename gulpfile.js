@@ -54,9 +54,19 @@ gulp.task('humans', function(cb) {
 
 
 gulp.task('image', function () {
-  gulp.src(Theme+'/images/*')
-    .pipe(image())
-    .pipe(gulp.dest(Theme+'/images/min'));
+  gulp.src(Theme+'/images/src/*.*')
+      .pipe(image({
+      pngquant: true,
+      optipng: false,
+      zopflipng: true,
+      jpegRecompress: true,
+      mozjpeg: true,
+      guetzli: false,
+      gifsicle: true,
+      svgo: true,
+      concurrent: 10
+    }))
+    .pipe(gulp.dest(Theme+'/images/'));
 });
 
 gulp.task('clean', function() {
