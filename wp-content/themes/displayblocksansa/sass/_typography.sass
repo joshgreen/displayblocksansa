@@ -1,0 +1,122 @@
+/*!
+  Typography Starts
+  */
+
+html
+  padding: 0
+  margin: 0
+  font-size: 22px
+  line-height: 1.5
+  color: $db-text
+  +breakpoint(verysmall)
+    font-size: 16px
+  +breakpoint(small)
+    font-size: 16px
+  +breakpoint(medium)
+    font-size: 20px
+  +breakpoint(large)
+    font-size: 22px
+
+
+body
+  font-family: "freight-sans-pro", sans-serif
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  font-weight: 400
+
+
+h1, h2, h3, h4, h5, h6, p, ul, ol
+  margin-top: 0
+  margin-bottom: 1em
+
+
+h1, h2, h3, h4, h5, h6
+  margin-bottom: 0.5rem
+  line-height: 1.1
+
+
+h1
+  font-size: 3em
+  +breakpoint(small)
+    font-size: 2em
+  +breakpoint(verysmall)
+    font-size: 2em
+h2
+  font-size: 2.65em
+h3
+  font-size: 2.35em
+h4
+  font-size: 1.1em
+  font-weight: 600
+  text-transform: uppercase
+  letter-spacing: 0.8px
+h5
+  font-size: 1em
+h6
+  font-size: 1.25em
+
+p
+  font-weight: 400
+  line-height: 1.60
+  letter-spacing: -0.30px
+  word-spacing: -0.10px
+  text-transform: none
+
+=smalltext
+  font-size: 16px
+
+=textcenter
+  text-align: center
+
+=textleft
+  text-align: left
+
+=textright
+  text-align: right
+
+.huge
+  font-size: 3em
+
+
+.tab
+  padding: (nth($pad, 1) + 2px) (nth($pad, 2) + 2px)
+
+
+.note
+  font-family: "verveine", hand
+  font-weight: 400
+
+
+.blue-text
+  color: $db-primaryblue
+  a
+    +link-colors($db-primaryblue, $db-primaryblue, $db-primaryblue, $db-primaryblue, $db-primaryblue)
+
+a
+  text-decoration: none
+  background-image: linear-gradient(to bottom, $db-primaryblue 50%, $db-primaryblue 50%)
+  background-repeat: repeat-x
+  background-size: 1px 1px
+  background-position: 0 1.17em
+  +link-colors($db-primaryblue, $db-primaryblue, $db-primaryblue, $db-primaryblue, $db-primaryblue)
+
+
+@font-face
+  font-family: 'Entypo'
+  font-style: normal
+  font-weight: normal
+  src: url('./fonts/entypo.eot')
+  src: url('./fonts/entypo.eot#iefix') format('embedded-opentype'), url('./fonts/entypo.woff') format('woff'), url('./fonts/entypo.ttf') format('truetype'), url('./fonts/entypo.svg#Body-WebS') format('svg')
+
+.entypo
+  font-family: 'Entypo'
+  font-size: 1.7em
+  position: relative
+  top: 2px
+
+
+
+/*!
+  Typography Ends
+  */

@@ -1,0 +1,125 @@
+/*!
+  Global Starts
+  */
+.screen-reader-text
+  +screenreader
+
+img
+  width: 100%
+  height: auto
+  max-width: 100%
+
+
+
+::selection
+  background: $db-lightyellow
+  color: $db-text
+
+::-moz-selection
+  background: $db-lightyellow
+  color: $db-text
+
+
+.site-content
+  padding: 9.6rem 0 0 0
+  background: $db-primaryblue
+  width: 100%
+  +group
+
+.site-main
+  background: white
+  +group
+
+.entry-content
+  padding: 2rem 0 0 0
+
+.inner
+  +max
+
+.banner
+  +textcenter
+  padding: 4rem 0
+  +breakpoint(medium)
+    padding: 3rem 0
+  +breakpoint(small)
+    padding: 2rem 0
+  +breakpoint(verysmall)
+    padding: 2rem 0
+
+
+.entry-header
+  background: $db-primaryblue
+  padding: 2rem 0
+  color: white
+  margin-bottom: 0
+
+#back-top
+  bottom: 15px!important
+  margin: 0
+  position: fixed
+  right: 29px!important
+  z-index: 999
+
+
+#back-top a
+  background: url("./images/back-to-top.png")
+  // background: url(../displayblocktheme/images/back-to-top.png)
+  background-position: scroll
+  background-color: transparent
+  background-position: left top
+  background-repeat: no-repeat
+  display: block
+  height: 20px
+  text-indent: -9999px
+  width: 19px
+  +transition(all 0.30s ease-in-out)
+
+#back-top a:hover
+  background-position: left -20px
+
+
+.uk
+  text-indent: -999px
+  font-size: 0
+  &::before
+    content: ''
+    display: inline-block
+    width: 15px
+    height: 10px
+    background: url("./images/uk_@2X.png")
+    background-repeat: no-repeat
+    background-size: cover
+
+
+.animated
+  animation-duration: 1s
+  animation-fill-mode: both
+
+  &.infinite
+    animation-iteration-count: infinite
+
+  &.hinge
+    animation-duration: 2s
+
+@keyframes fadeOutUp
+  from
+    opacity: 1
+
+  to
+    opacity: 0
+    transform: translate3d(0, -100%, 0)
+    margin-bottom: -54px
+
+.fadeOutUp
+  animation-name: fadeOutUp
+
+
+
+
+
+/*!
+  Global Ends
+  */
+
+
+

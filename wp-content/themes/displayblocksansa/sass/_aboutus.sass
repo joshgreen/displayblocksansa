@@ -1,0 +1,73 @@
+/*!
+  About us Starts
+  */
+.about-us
+  background: white
+
+
+.staff-list
+  +listreset
+  display: grid
+  grid-template-column: 1fr
+  background: $db-lightgrey
+
+.staff-member
+  display: flex
+  flex-direction: row
+  +breakpoint(medium)
+    flex-direction: column-reverse
+  +breakpoint(small)
+    flex-direction: column-reverse
+  +breakpoint(verysmall)
+    flex-direction: column-reverse
+
+.staff-member:nth-of-type(odd)
+  display: flex
+  flex-direction: row-reverse
+  +breakpoint(medium)
+    flex-direction: column-reverse
+  +breakpoint(small)
+    flex-direction: column-reverse
+  +breakpoint(verysmall)
+    flex-direction: column-reverse
+
+.staff-text, .staff-pic
+  width: 50%
+  +breakpoint(medium)
+    width: 100%
+  +breakpoint(small)
+    width: 100%
+  +breakpoint(verysmall)
+    width: 100%
+
+
+.staff-text
+  padding: 3rem 3rem 1rem 3rem
+  +breakpoint(small)
+    padding: 1rem 2rem 3rem 2rem
+  +breakpoint(verysmall)
+    padding: 1rem 2rem 3rem 2rem
+
+.job-title
+  display: inline-block
+  padding-bottom: 0.4rem
+  margin-bottom: 0.8rem
+  border-bottom: 2px solid $db-primaryblue
+
+.office-pics
+  overflow: hidden
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  +breakpoint(small)
+    grid-template-columns: 1fr
+  +breakpoint(verysmall)
+    grid-template-columns: 1fr
+
+
+
+.about-us-outro
+  padding-bottom: $bpad
+
+/*!
+  About us Ends
+  */

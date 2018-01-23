@@ -1,0 +1,15 @@
+<meta property="og:title" content="<?php if (function_exists('is_tag') && is_tag()) {echo 'Tag Archive for &quot;'.$tag.'&quot; - ';} elseif (is_archive()) {wp_title('|', true, 'right'); echo '| Archive';} elseif (is_search()) {echo 'Search for &quot;'.wp_specialchars($s).'&quot; - ';} elseif (is_page_template( 'homepage.php' ) ) {echo  bloginfo('name');} elseif (is_home()) {echo ('display block | Blog');} elseif (!(is_404()) && (is_single()) || (is_page())) {wp_title('|', true, 'right');} elseif (is_404()) {echo 'Not Found - display block';}?>" />
+<meta property="og:site_name" content="<?php bloginfo('name'); ?>"/>
+<meta property="og:url" content="<?php the_permalink(); ?>" />
+<meta property="og:description" content="<?php if (is_single()) {
+        echo(get_excerpt_by_id($post_id));
+    } else {
+        echo ('display block is a creative email agency. We cover all aspects of email marketing from design to campaign deployment.');
+    }
+
+    ?>">
+<meta property="og:image" content="<?php wp_get_attachment_image_src( get_post_thumbnail_id(), 'full', false )[0] ?>" />
+<meta property="og:image" content="http://www.displayblock.com/wp-content/themes/displayblocktheme/apple-touch-icon-precomposed.png" />
+<meta property="og:image" content="<?php bloginfo('template_url'); ?>/images/og-image.png" />
+<meta property="og:type" content="<?php if (is_single() || is_page()) { echo 'article'; } else { echo 'website';} ?>"/>
+<meta property="fb:app_id" content="1234457622781006" />

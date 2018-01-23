@@ -1,0 +1,33 @@
+/*!
+  Mixins Starts
+  */
+=listreset
+  list-style: none
+  margin: 0
+  padding: 0
+
+=font-size($sizeValue: 12)
+  font-size: $sizeValue + px
+  //fallback for old browsers
+  font-size: 0.125 * $sizeValue + rem
+
+=screenreader
+  position: absolute !important
+  top: -9999px !important
+  left: -9999px !important
+
+=vertical-align
+  position: relative
+  top: 50%
+  +transform(translateY(-50%))
+
+
+=abs-pos ($top: auto, $right: auto, $bottom: auto, $left: auto)
+  top: $top
+  right: $right
+  bottom: $bottom
+  left: $left
+  position: absolute
+/*!
+  Mixins Ends
+  */

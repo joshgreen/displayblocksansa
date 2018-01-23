@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="255px" height="220px" viewBox="0 0 255 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>home-enterprise_features-testing</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="59.0817554" y="39.842227" width="24.8875028" height="95.3129539"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="24.8875028" height="95.3129539" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="172" y="39" width="24.8875028" height="95.3129539"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="24.8875028" height="95.3129539" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="59" y="127" width="137.918245" height="75.6287569"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="137.918245" height="75.6287569" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="64.2666518" y="57.4544032" width="14.51771" height="12.4321244"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14.51771" height="12.4321244" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="64.2666518" y="89.5707247" width="14.51771" height="12.4321244"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14.51771" height="12.4321244" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="177.297394" y="57.4544032" width="14.51771" height="12.4321244"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14.51771" height="12.4321244" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <rect id="path-13" x="177.297394" y="89.5707247" width="14.51771" height="12.4321244"></rect>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14.51771" height="12.4321244" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <rect id="path-15" x="80.8583203" y="147.587305" width="93.3281354" height="42.4764251"></rect>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="93.3281354" height="42.4764251" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+        <rect id="path-17" x="89.1541546" y="153.803368" width="38.3682335" height="22.7922281"></rect>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="38.3682335" height="22.7922281" fill="white">
+            <use xlink:href="#path-17"></use>
+        </mask>
+        <rect id="path-19" x="137.892181" y="154.839378" width="30.0723992" height="31.0803111"></rect>
+        <mask id="mask-20" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30.0723992" height="31.0803111" fill="white">
+            <use xlink:href="#path-19"></use>
+        </mask>
+        <rect id="path-21" x="63.2296725" y="26.3380818" width="23.8505235" height="7.25207258"></rect>
+        <mask id="mask-22" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="23.8505235" height="7.25207258" fill="white">
+            <use xlink:href="#path-21"></use>
+        </mask>
+        <rect id="path-23" x="166.927601" y="26.3380818" width="23.8505235" height="7.25207258"></rect>
+        <mask id="mask-24" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="23.8505235" height="7.25207258" fill="white">
+            <use xlink:href="#path-23"></use>
+        </mask>
+        <rect id="path-25" x="59" y="32" width="137.918245" height="9.32409332"></rect>
+        <mask id="mask-26" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="137.918245" height="9.32409332" fill="white">
+            <use xlink:href="#path-25"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-269.000000, -478.000000)">
+            <g id="home-enterprise_features-testing" transform="translate(269.000000, 478.000000)">
+                <g id="Group-10">
+                    <path d="M0,0 L255,0 L255,56.6757812 L255,220 L0,220 L0,0 Z" id="Rectangle-59" fill="#FCFCFC"></path>
+                    <use id="Rectangle-102" stroke="#222B48" mask="url(#mask-2)" stroke-width="3.88" fill="#283359" xlink:href="#path-1"></use>
+                    <use id="Rectangle-102" stroke="#222B48" mask="url(#mask-4)" stroke-width="3.88" fill="#283359" xlink:href="#path-3"></use>
+                    <rect id="Rectangle-100" fill="#222B48" x="65.0447761" y="198.351813" width="11.4067721" height="18.6481866"></rect>
+                    <rect id="Rectangle-100" fill="#222B48" x="179.556249" y="198.351813" width="11.4067721" height="18.6481866"></rect>
+                    <rect id="Rectangle-4" fill="#222B48" x="69.4515482" y="22.15803" width="12.4437514" height="5.18005184"></rect>
+                    <rect id="Rectangle-4" fill="#222B48" x="173.149476" y="22.15803" width="12.4437514" height="5.18005184"></rect>
+                    <use id="Rectangle-99" stroke="#222B48" mask="url(#mask-6)" stroke-width="3.88" fill="#283359" xlink:href="#path-5"></use>
+                    <path d="M154.311795,126.331399 C152.809756,130.998566 142.299721,134.119171 128.253834,134.119171 C114.206553,134.119171 102.986842,131.036079 102.716196,126.331399 L102.634885,126.331399 L102.634885,100.966839 L154.478651,100.966839 L154.478651,124.169808 C154.485302,124.487987 154.485857,124.787636 154.478651,125.058818 L154.478651,126.331399 L154.311795,126.331399 Z" id="Combined-Shape" stroke="#1F2846" stroke-width="1.94" fill="#2E3A68"></path>
+                    <ellipse id="Oval-18" fill="#222B48" cx="128.559367" cy="101.484844" rx="26.9614613" ry="8.80608813"></ellipse>
+                    <use id="Rectangle-103" stroke="#1F2846" mask="url(#mask-8)" stroke-width="3.88" fill="#495CA3" xlink:href="#path-7"></use>
+                    <use id="Rectangle-103" stroke="#1F2846" mask="url(#mask-10)" stroke-width="3.88" fill="#495CA3" xlink:href="#path-9"></use>
+                    <use id="Rectangle-103" stroke="#1F2846" mask="url(#mask-12)" stroke-width="3.88" fill="#495CA3" xlink:href="#path-11"></use>
+                    <use id="Rectangle-103" stroke="#1F2846" mask="url(#mask-14)" stroke-width="3.88" fill="#495CA3" xlink:href="#path-13"></use>
+                    <use id="Rectangle-110" stroke="#222B48" mask="url(#mask-16)" stroke-width="3.88" fill="#283359" xlink:href="#path-15"></use>
+                    <use id="Rectangle-111" stroke="#222B48" mask="url(#mask-18)" stroke-width="3.88" fill="#495CA3" xlink:href="#path-17"></use>
+                    <rect id="Rectangle-112" fill="#222B48" x="91.2281132" y="180.739637" width="5.18489641" height="5.18005184"></rect>
+                    <use id="Rectangle-116" stroke="#222B48" mask="url(#mask-20)" stroke-width="3.88" fill="#2E3A68" xlink:href="#path-19"></use>
+                    <rect id="Rectangle-112" fill="#222B48" x="101.597906" y="180.739637" width="5.18489641" height="5.18005184"></rect>
+                    <rect id="Rectangle-112" fill="#222B48" x="111.967699" y="180.739637" width="5.18489641" height="5.18005184"></rect>
+                    <rect id="Rectangle-112" fill="#222B48" x="123.374471" y="180.739637" width="5.18489641" height="5.18005184"></rect>
+                    <path d="M146.97,155.875388 L146.97,185.919689" id="Path-124" stroke="#222B48" stroke-width="1.94"></path>
+                    <path d="M157.97,155.875388 L157.97,185.919689" id="Path-124" stroke="#222B48" stroke-width="1.94"></path>
+                    <path d="M138.92916,165.169159 L166.415038,165.169159" id="Path-126" stroke="#222B48" stroke-width="1.94"></path>
+                    <path d="M138.92916,174.493252 L167.211913,174.493252" id="Path-126" stroke="#222B48" stroke-width="1.94"></path>
+                    <use id="Rectangle-3" stroke="#222B48" mask="url(#mask-22)" stroke-width="3.88" fill="#283359" xlink:href="#path-21"></use>
+                    <use id="Rectangle-3" stroke="#222B48" mask="url(#mask-24)" stroke-width="3.88" fill="#283359" xlink:href="#path-23"></use>
+                    <polyline id="Path-131" stroke="#222B48" stroke-width="1.94" points="68.4145689 62.6333379 71.0145606 65.7424862 74.6364446 60.5624343"></polyline>
+                    <polyline id="Path-131" stroke="#222B48" stroke-width="1.94" points="68.4145689 94.7496593 71.0145606 97.8588076 74.6364446 92.6787558"></polyline>
+                    <g id="Group-3" transform="translate(180.371352, 91.642745)" stroke="#222B48" stroke-width="1.94">
+                        <path d="M7.26706129,1.66440051 L1.48445902,7.45621089" id="Path-133"></path>
+                        <path d="M0.832154279,1.74702456 L7.33019554,7.50470172" id="Path-134"></path>
+                    </g>
+                    <g id="Group-3" transform="translate(180.371352, 59.526424)" stroke="#222B48" stroke-width="1.94">
+                        <path d="M7.26706129,1.66440051 L1.48445902,7.45621089" id="Path-133"></path>
+                        <path d="M0.832154279,1.74702456 L7.33019554,7.50470172" id="Path-134"></path>
+                    </g>
+                    <path d="M67.6179161,135.155181 L68.1742426,194.207772" id="Path-141" stroke="#222B48" stroke-width="2.91"></path>
+                    <path d="M187.907513,134.119171 L188.463839,193.171762" id="Path-141" stroke="#222B48" stroke-width="2.91"></path>
+                    <path d="M92.2650924,182.795719 L96.4130096,182.827596" id="Path-142" stroke="#283359" stroke-width="0.97"></path>
+                    <path d="M102.634885,182.795719 L106.782802,182.827596" id="Path-142" stroke="#283359" stroke-width="0.97"></path>
+                    <path d="M113.004678,182.795719 L117.152595,182.827596" id="Path-142" stroke="#283359" stroke-width="0.97"></path>
+                    <path d="M124.41145,182.795719 L128.559367,182.827596" id="Path-142" stroke="#283359" stroke-width="0.97"></path>
+                    <rect id="Rectangle-121" fill="#222B48" x="95.3760303" y="157.947409" width="3.11093785" height="3.10803111"></rect>
+                    <rect id="Rectangle-121" fill="#222B48" x="95.3760303" y="163.163471" width="3.11093785" height="3.10803111"></rect>
+                    <polygon id="Rectangle-121" fill="#222B48" points="95.3760303 169.343523 96.7808638 169.343523 98.4869681 169.343523 98.4869681 172.451554 95.3760303 172.451554"></polygon>
+                    <path d="M154.365767,66.4475566 C154.365767,71.2077115 142.785415,75.0665795 128.500326,75.0665795 C114.215238,75.0665795 102.634885,71.2077115 102.634885,66.4475566 C102.634885,66.1679318 102.674846,65.8914171 102.752968,65.618612 L102.752968,35.6981855 L154.483849,35.6981855 L154.483849,66.4475566 L154.365767,66.4475566 Z" id="Combined-Shape" stroke="#222B48" stroke-width="1.94" fill="#2E3A68"></path>
+                    <path d="M108.856761,125.367092 C109.597361,125.721502 115.613207,129.281863 129.173348,128.912254 C142.73349,128.542644 145.690314,127.15834 148.261974,124.795077" id="Path-130" stroke="#222B48" stroke-width="1.94"></path>
+                    <use id="Rectangle-108" stroke="#222B48" mask="url(#mask-26)" stroke-width="3.88" fill="#283359" xlink:href="#path-25"></use>
+                    <path d="M108.856761,64.2424807 C109.597361,64.5968901 115.613207,68.1572516 129.173348,67.7876418 C142.73349,67.4180319 145.690314,66.0337284 148.261974,63.6704655" id="Path-130" stroke="#222B48" stroke-width="1.94"></path>
+                    <g id="Page-1" transform="translate(116.115616, 84.390673)">
+                        <polygon id="Fill-1" stroke="#1F2846" stroke-width="1.94" fill="#495CA3" points="0 15.962751 25.316714 15.962751 25.316714 0.0467324584 0 0.0467324584"></polygon>
+                        <polygon id="Fill-2" fill="#1F2846" points="22.2503889 0.000149903636 12.7046663 8.16356938 3.24617754 0.000149903636 0.125315453 0.000149903636 12.4630853 10.3232638 12.7046661 10.5878437 13.4882359 9.93274348 25.3686794 0.000149903636"></polygon>
+                        <polygon id="Fill-3" fill="#1F2846" points="0.0870347573 15.9273362 3.13042595 15.9273366 11.3861622 8.40600478 9.57218113 7.36896292"></polygon>
+                        <polygon id="Fill-4" fill="#1F2846" points="14.0995714 8.83080452 22.5874196 15.896006 25.311532 15.8960064 15.5629599 7.56538458"></polygon>
+                    </g>
+                    <path d="M102.634885,158.97 L122.337492,158.97" id="Path-211" stroke="#222B48" stroke-width="1.94"></path>
+                    <path d="M102.634885,164.97 L122.337492,164.97" id="Path-211" stroke="#222B48" stroke-width="1.94"></path>
+                    <path d="M102.634885,170.97 L122.337492,170.97" id="Path-211" stroke="#222B48" stroke-width="1.94"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="117px" height="116px" viewBox="0 0 117 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>home-sme_process-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="16" width="100" height="100"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="100" height="100" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="17" y="0" width="100" height="100"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="100" height="100" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="17" y="0" width="100" height="100"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="100" height="100" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-733.000000, -320.000000)">
+            <g id="home-sme_process-3" transform="translate(733.000000, 320.000000)">
+                <use id="Rectangle-18" stroke="#ECD43C" mask="url(#mask-2)" stroke-width="4" fill="#ECD43C" xlink:href="#path-1"></use>
+                <use id="Rectangle-18" stroke="#ECD43C" mask="url(#mask-4)" stroke-width="4" fill="#FBF099" xlink:href="#path-3"></use>
+                <use id="Rectangle-18" stroke="#ECD43C" mask="url(#mask-6)" stroke-width="4" fill="#FBF099" xlink:href="#path-5"></use>
+                <g id="Group-8" transform="translate(66.113042, 48.348245)">
+                    <path d="M34.6298617,38.2306258 C25.0218749,45.0756115 11.5740335,42.986682 4.59446504,33.5653926 C-2.38638806,24.1441032 -0.256418527,10.9581356 9.35156828,4.11314985 C13.1939922,1.37438805 17.2406774,0.0862361843 21.9900726,0.0862361843" id="Fill-5" fill="#FEFEFE"></path>
+                    <path d="M34.6298617,38.2306258 C25.0218749,45.0756115 11.5740335,42.986682 4.59446504,33.5653926 C-2.38638806,24.1441032 -0.256418527,10.9581356 9.35156828,4.11314985 C13.1939922,1.37438805 17.2406774,0.0862361843 21.9900726,0.0862361843" id="Stroke-7" stroke="#ECD43C" stroke-width="2" fill="#FFFBD2"></path>
+                </g>
+                <g id="Group-12" transform="translate(87.668799, 48.348245)">
+                    <path d="M0.0449332857,0.0858524251 C9.54629315,0.0858524251 17.5357636,5.99009502 20.4712162,14.851096" id="Fill-9" fill="#FEFEFE"></path>
+                    <path d="M0.0449332857,0.0858524251 C9.54629315,0.0858524251 17.5600145,5.79491077 20.495467,14.6559117 L0.563623097,23.1622532" id="Stroke-11" stroke="#ECD43C" stroke-width="2" fill="#FFFBD2"></path>
+                </g>
+                <path d="M108.289307,63.3210449 L87.5625273,70.3016187 L100.202316,87.0284049 C107.888449,81.5521605 111.22476,72.1807667 108.289307,63.3210449 Z" id="Stroke-15" stroke="#ECD43C" stroke-width="2" fill="#FFFBD2"></path>
+                <g id="Group-20" transform="translate(85.668799, 48.348245)">
+                    <path d="M4.5213869,1.49491784 L1.33120121,21.6517553" id="Fill-17" fill="#FEFEFE"></path>
+                    <path d="M5.46864267,0.888578228 L1.31960455,21.6726301" id="Stroke-19" stroke="#ECD43C" stroke-width="2"></path>
+                </g>
+                <polyline id="Stroke-21" stroke="#ECD43C" stroke-width="2" points="33 35.4359055 50.3063018 24.9739036 52.6086116 33.2342007 75.6126538 17.6904071 78.8313834 31.4298089 102 17.2184892"></polyline>
+                <path d="M34.2219563,58 L53.3588751,58" id="Path-112" stroke="#ECD43C" stroke-width="2"></path>
+                <path d="M39.861456,80 L58.9983748,80" id="Path-112" stroke="#ECD43C" stroke-width="2"></path>
+                <path d="M30.7082393,66 L56.5036682,66" id="Path-112" stroke="#ECD43C" stroke-width="2"></path>
+                <path d="M29.044018,73 L59,73" id="Path-112" stroke="#ECD43C" stroke-width="2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

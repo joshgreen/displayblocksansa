@@ -1,0 +1,1 @@
+!function(n){n(window).load(function(){n(".flexslider").flexslider({animation:"slide",slideshowSpeed:1e4,initDelay:12e3,pauseOnHover:!0,controlsContainer:n(".custom-controls-container"),customDirectionNav:n(".custom-navigation a")})})}(jQuery);

@@ -1,0 +1,101 @@
+/*!
+  Footer Starts
+  */
+.site-footer
+  background: $db-darkblue
+  color: white
+  border-bottom: 4rem solid $db-darkblue
+  font-size: 0.9em
+  a
+    +link-colors(white,white,white,white,white)
+    background-image: none
+
+.footer-inner
+  +max
+  display: grid
+  grid-template-columns: 1fr 2fr 1fr 1fr 2fr
+  grid-gap: 2rem
+  +breakpoint(large)
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-rows: 2
+  +breakpoint(medium)
+    grid-template-columns: repeat(3, 1fr)
+    grid-template-rows: 2
+  +breakpoint(medium)
+    grid-template-columns: repeat(1, 1fr)
+  +breakpoint(small)
+    grid-template-columns: repeat(1, 1fr)
+  +breakpoint(verysmall)
+    grid-template-columns: repeat(1, 1fr)
+
+.foot-branding
+  width: 100%
+  grid-column: 1 / -1
+  text-align: center
+  padding: 4rem 0
+  +breakpoint(medium)
+    padding: 2rem 0
+  +breakpoint(small)
+    padding: 2rem 0
+  +breakpoint(verysmall)
+    padding: 1rem 0
+  img
+    max-width: 220px
+    +breakpoint(medium)
+      max-width: 190px
+    +breakpoint(small)
+      max-width: 190px
+    +breakpoint(verysmall)
+      max-width: 150px
+
+.f-info section
+  margin-bottom: 2rem
+
+
+.footer-signup
+  margin-bottom: 1.5rem
+  font-size: 0.8em
+
+.footer-signup-label
+  +screenreader
+
+.footer-signup-input
+  padding: 0.5rem 0.8rem
+  margin: 0
+  display: inline-block
+  max-width: 300px
+  border: 0
+  line-height: 1.2em
+  width: 200px
+
+
+
+.footer-signup-submit
+  background: black
+  appearance: none
+  border: 0
+  padding: 0.5rem 0.8rem
+  margin: 0
+  display: inline-block
+  color: white
+  margin-left: -4px
+  width: 120px
+
+
+
+.footer-posts
+  ul
+    +listreset
+
+.site-info
+  text-align: center
+  +smalltext
+
+.site-footer ul
+  +listreset
+
+
+
+/*!
+  Footer Ends
+  */

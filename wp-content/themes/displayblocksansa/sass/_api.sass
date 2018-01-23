@@ -1,0 +1,49 @@
+/*!
+  Api integration Starts
+  */
+.api-items
+  +listreset
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  grid-gap: 2rem
+  +breakpoint(large)
+    grid-template-columns: repeat(3, 1fr)
+    grid-gap: 1.5rem
+  +breakpoint(medium)
+    grid-template-columns: repeat(2, 1fr)
+    grid-gap: 1rem
+  +breakpoint(small)
+    grid-template-columns: repeat(2, 1fr)
+    grid-gap: 1rem
+  +breakpoint(verysmall)
+    grid-template-columns: 1fr
+    grid-gap: 1rem
+
+.api-single
+  border: 1px solid $db-lightgrey
+  border-radius: 8px
+  a
+    +link-colors($db-text,$db-text,$db-text,$db-text,$db-text)
+
+.api-description
+  padding: 0 1rem
+
+.zapier
+  color: $db-textgrey
+  +smalltext
+  position: relative
+
+.zap-logo
+  display: inline-block
+  position: relative
+  background: url("./images/zapier.svg")
+  background-repeat: no-repeat
+  width: 60px
+  height: 30px
+  top: 8px
+  left: 2px
+  margin-bottom: 0
+
+/*!
+  Api integration Ends
+  */

@@ -1,0 +1,77 @@
+/*!
+  Grid Starts
+  */
+
+*, *:before, *:after
+  +box-sizing(border-box)
+  outline: none
+
+$bpad: 20px
+
+=breakpoint($point)
+  @if $point == extralarge
+    @media (min-width: 1661px)
+      @content
+  @else if $point == verylarge
+    @media (min-width: 1401px) and (max-width: 1660px)
+      @content
+  @if $point == large
+    @media (min-width: 1001px) and (max-width: 1400px)
+      @content
+  @else if $point == medium
+    @media (min-width: 701px) and (max-width: 1000px)
+      @content
+  @else if $point == small
+    @media (min-width: 500px) and (max-width: 700px)
+      @content
+  @else if $point == verysmall
+    @media (min-width: 20px) and (max-width: 499px)
+      @content
+
+
+=group
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+
+=max
+  max-width: 1600px
+  margin: 0 auto
+  width: 100%
+  grid-column: 1 / -1
+  +breakpoint(verylarge)
+    padding: 0 4rem
+  +breakpoint(large)
+    padding: 0 3rem
+  +breakpoint(medium)
+    padding: 0 2rem
+  +breakpoint(small)
+    padding: 0 1rem
+  +breakpoint(verysmall)
+    padding: 0 1rem
+
+
+.max
+  +max
+
+
+=ban-pad
+  padding: 20vh 0
+  @include breakpoint(verysmall)
+    padding: 4vh 0
+  @include breakpoint(small)
+    padding: 8vh 0
+  @include breakpoint(medium)
+    padding: 12vh 0
+  @include breakpoint(large)
+    padding: 16vh 0
+
+
+$pad: 10px 15px
+
+$bpad: 2rem
+/*!
+  Grid Ends
+  */

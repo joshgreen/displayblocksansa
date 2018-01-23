@@ -1,0 +1,71 @@
+/*!
+  Buttons Starts
+  */
+
+a[class*='button-'], input[class*='button-']
+  font-weight: 600
+  text-decoration: none
+  display: inline-block
+  &:hover
+    +transform(translateY(-1px))
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08)
+    +transition(all 0.1s ease)
+  &:focus, &:active
+    +box-shadow(none)
+    +transform(translateY(1px))
+
+
+a[class*='white'], input[class*='white']
+  +link-colors($db-primaryblue, $db-primaryblue, $db-primaryblue, $db-primaryblue, $db-primaryblue)
+  background: white
+
+
+
+a[class*='blue'], input[class*='blue']
+  +link-colors(white, white, white, white, white)
+  background: $db-primaryblue
+
+
+
+a[class*='grey'], input[class*='grey']
+  +link-colors(white, white, white, white, white)
+  background: $db-texttitle
+
+
+
+a[class*='darkblue'], input[class*='darkblue']
+  +link-colors(white, white, white, white, white)
+  background: $db-darkblue
+
+
+a[class$='huge'], input[class$='huge']
+  font-size: 2.5em
+  padding: 1.5rem 2.9rem
+  margin: 1rem
+
+
+a[class$='large'], input[class$='large']
+  font-size: 1.5em
+  padding: 1.1rem 2.4rem
+  margin: 0.5rem
+
+
+
+
+a[class$='medium'], input[class$='medium']
+  padding: 0.8rem 1.5rem
+  margin: 0.5rem
+
+
+a[class$='small'], input[class$='small']
+  font-size: 0.8em
+  padding: 0.4rem 1rem
+  margin: 0.4rem
+  +breakpoint(verysmall)
+    font-size: 0.9em
+
+
+
+/*!
+  Buttons Ends
+  */

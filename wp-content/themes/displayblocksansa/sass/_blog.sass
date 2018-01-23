@@ -1,0 +1,27 @@
+/*!
+  Blog Starts
+  */
+
+.site-blog
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  grid-gap: 2rem
+  +breakpoint(large)
+    grid-template-columns: repeat(2, 1fr)
+    grid-gap: 1.5rem
+  +breakpoint(medium)
+    grid-template-columns: repeat(2, 1fr)
+    grid-gap: 1rem
+  +breakpoint(small)
+    grid-template-columns: 1fr
+    grid-gap: 1rem
+  +breakpoint(verysmall)
+    grid-template-columns: 1fr
+    grid-gap: 1rem
+
+.site-blog .entry-title
+  font-size: 1.3em
+
+/*!
+  Blog Ends
+  */
