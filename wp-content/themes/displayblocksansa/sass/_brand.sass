@@ -1,0 +1,157 @@
+/*!
+  Brand Starts
+  */
+.brand-items header
+  background-color: $db-lightyellow
+  h2
+    font-size: 2.3em
+    padding: 1.5rem 0
+    color: white
+
+.brand-items article
+  +vpad
+
+.colour-grid
+  +listreset
+  display: grid
+  grid-template-columns: repeat(6, 1fr)
+  grid-gap: 30px
+  +breakpoint(large)
+    grid-template-columns: repeat(4, 1fr)
+  +breakpoint(medium)
+    grid-template-columns: repeat(3, 1fr)
+  +breakpoint(small)
+    grid-template-columns: repeat(2, 1fr)
+    grid-gap: 20px
+  +breakpoint(verysmall)
+    grid-template-columns: repeat(1, 1fr)
+    grid-gap: 10px
+
+  li
+    +group
+
+  div
+    padding: 2rem 0.5rem
+    clear: both
+    display: block
+    width: 100%
+
+
+  span
+    display: block
+    width: 100%
+    background-color: white
+    clear: both
+    font-size: 0.8em
+    padding: 0.5rem
+
+
+.typeface-examples
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  grid-gap: 30px
+  +breakpoint(large)
+    grid-template-columns: repeat(2, 1fr)
+  +breakpoint(medium)
+    grid-template-columns: repeat(2, 1fr)
+  +breakpoint(small)
+    grid-template-columns: repeat(1, 1fr)
+    grid-gap: 20px
+  +breakpoint(verysmall)
+    grid-template-columns: repeat(1, 1fr)
+    grid-gap: 10px
+  div span
+    &:nth-of-type(1)
+      font-size: 1.4em
+    &:nth-of-type(2), &:nth-of-type(3)
+      font-size: 2.8em
+      line-height: 1
+    &:nth-of-type(4)
+      display: inline-block
+      margin-top: 0.6rem
+
+
+
+.typeface-examples div
+  &:nth-of-type(1)
+    font-weight: 400
+.typeface-examples div
+  &:nth-of-type(2)
+    font-weight: 400
+.typeface-examples div
+  &:nth-of-type(3)
+    font-weight: 600
+.typeface-examples div
+  &:nth-of-type(4)
+    font-weight: 600
+.typeface-examples div
+  &:nth-of-type(5)
+    font-weight: 700
+.typeface-examples div
+  &:nth-of-type(6)
+    font-weight: 700
+
+
+.db-primaryblue
+  background-color: $db-primaryblue
+.db-lightblue
+  background-color: $db-lightblue
+.db-yellow
+  background-color: $db-yellow
+.db-lightyellow
+  background-color: $db-lightyellow
+.db-lightgreybg
+  background-color: $db-lightgreybg
+.db-lightgrey
+  background-color: $db-lightgrey
+.db-textgrey
+  background-color: $db-textgrey
+.db-texttitle
+  background-color: $db-texttitle
+.db-textfooter
+  background-color: $db-textfooter
+.db-textbody
+  background-color: $db-textbody
+.db-grey4
+  background-color: $db-grey4
+.db-text
+  background-color: $db-text
+.db-darkblue
+  background-color: $db-darkblue
+.db-midblue
+  background-color: $db-midblue
+.db-twc
+  background-color: $db-twc
+.db-red
+  background-color: $db-red
+.db-turquise
+  background-color: $db-turquise
+.db-green1
+  background-color: $db-green1
+.db-green
+  background-color: $db-green
+
+
+.typography-headings
+  div
+    margin-bottom: 1rem
+  h1, h2, h3, h4, h5, h6
+    clear: none
+    display: inline-block
+    padding: 0 3rem 0 0
+    width: 400px
+    +breakpoint(large)
+      display: block
+      width: auto
+    +breakpoint(medium)
+      display: block
+      width: auto
+    +breakpoint(small)
+      display: block
+      width: auto
+    +breakpoint(verysmall)
+      display: block
+      width: auto
+/*!
+  Brand Ends
+  */
