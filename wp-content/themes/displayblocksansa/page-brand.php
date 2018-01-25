@@ -147,6 +147,10 @@ get_header(); ?>
                 <div><h6>Header h6</h6> <span>font-size: 17.6px, font-weight: 700, letter-spacing: 0px, line-height: 19.3667px;</span></div>
               </div>
 
+              <div class="typography-bodycopy">
+                Hi World
+              </div>
+
             </div> <!-- .inner -->
           </article>
         </section> <!-- .brand-typography -->
