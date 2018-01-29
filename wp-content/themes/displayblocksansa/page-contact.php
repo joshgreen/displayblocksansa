@@ -12,12 +12,24 @@
 
 get_header(); ?>
 <div class="banner image cont-intro">
-    <div class="max">
-        <h4>Let’s talk email</h4>
-        <h1>Contact</h1>
-    </div>
+  <div class="max">
+    <h4>Let’s talk email</h4>
+    <h1>Contact</h1>
+  </div>
 </div>
 <div class="contact">
+  <div class="inner">
+    <div class="form-wrapper">
+      <?php while ( have_posts() ) : the_post(); ?>
+
+        <?php get_template_part( 'content', 'contact' ); ?>
+
+      <?php endwhile; // end of the loop. ?>
+
+    </div> <!-- .form-wrapper -->
+
+  </div> <!-- .inner -->
+
 
     <div class="max">
         <ul class="contact-intro">
@@ -59,11 +71,7 @@ get_header(); ?>
             <h3>Send us a message</h3>
 
             <p>If you would just like to get in touch or have a message for us please us the form below.</p>
-            <?php while ( have_posts() ) : the_post(); ?>
 
-                <?php get_template_part( 'content', 'contact' ); ?>
-
-            <?php endwhile; // end of the loop. ?>
 
         </div> <!-- .inner -->
 

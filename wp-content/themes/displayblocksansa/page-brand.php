@@ -51,11 +51,11 @@ get_header(); ?>
                 <li><div class="db-lightyellow">#FFEBAC</div><span>display block lightyellow: rgba(255,235,172,1.0)</span></li>
                 <li><div class="db-lightgreybg">#F1F4F7</div><span>display block lightgreybg: rgba(241, 244, 247,1.0)</span></li>
                 <li><div class="db-lightgrey">#E0E1E1</div><span>display block lightgrey: rgba(224, 225, 225,1.0)</span></li>
-                <li><div class="db-textgrey whitetext">#9A9C9E</div><span>display block textgrey: rgba(154, 156, 158,1.0)</span></li>
-                <li><div class="db-texttitle whitetext">#888A8C</div><span>display block texttitle: rgba(136, 138, 140,1.0)</span></li>
-                <li><div class="db-textfooter whitetext">#78797C</div><span>display block textfooter: rgba(120,121,124,1.0)</span></li>
-                <li><div class="db-textbody whitetext">#657278</div><span>display block textbody: rgba(101,114,120,1.0)</span></li>
-                <li><div class="db-grey4 whitetext">#5D5D5D</div><span>display block grey4: rgba(93,93,93,1.0)</span></li>
+                <li><div class="db-grey1 whitetext">#9A9C9E</div><span>display block grey1: rgba(154, 156, 158,1.0)</span></li>
+                <li><div class="db-grey2 whitetext">#888A8C</div><span>display block grey2: rgba(136, 138, 140,1.0)</span></li>
+                <li><div class="db-grey3 whitetext">#78797C</div><span>display block grey3: rgba(120,121,124,1.0)</span></li>
+                <li><div class="db-grey4 whitetext">#657278</div><span>display block grey4: rgba(101,114,120,1.0)</span></li>
+                <li><div class="db-grey5 whitetext">#5D5D5D</div><span>display block grey5: rgba(93,93,93,1.0)</span></li>
                 <li><div class="db-text whitetext">#505457</div><span>display block text: rgba(61,66,69,0.9)</span></li>
                 <li><div class="db-darkblue whitetext">#1F2845</div><span>display block darkblue: rgba(31, 40, 69,1.0)</span></li>
                 <li><div class="db-midblue whitetext">#2F3438</div><span>display block midblue: rgba(47, 52, 56,1.0)</span></li>
