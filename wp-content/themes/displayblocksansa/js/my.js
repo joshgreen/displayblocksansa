@@ -3,7 +3,7 @@
     // Menu rotate
 
     $('.menu-toggle').click(function() {
-      $( this ).toggleClass( "rotate" );
+      $( this ).toggleClass( "open" );
     });
 
     $(document).ready(function () {

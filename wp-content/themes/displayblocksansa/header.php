@@ -48,6 +48,7 @@
           </div> <!-- .site-branding -->
 
           <nav id="site-navigation" class="site-navigation" role="navigation">
+            <button class="menu-toggle"><span></span></button>
             <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
           </nav> <!-- #site-navigation -->
         </div> <!-- .lay-head -->
