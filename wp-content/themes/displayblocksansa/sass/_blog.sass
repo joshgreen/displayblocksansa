@@ -3,6 +3,7 @@
   */
 
 .site-blog
+  +vpad
   display: grid
   grid-template-columns: repeat(3, 1fr)
   grid-gap: 2rem
@@ -20,8 +21,24 @@
     grid-gap: 1rem
 
 .site-blog .entry-title
-  font-size: 1.3em
+  font-size: 1.6em
 
+.blog-preview-image a, .entry-title a
+  background-image: none
+
+.site-blog .entry-header
+  background: none
+  color: $db-primaryblue
+  padding: 1rem 0
+
+.site-blog .entry-meta
+  font-size: 0.8em
+
+time.updated
+  +screenreader
+
+.site-blog .entry-content
+  padding: 0
 /*!
   Blog Ends
   */

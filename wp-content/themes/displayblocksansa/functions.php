@@ -230,7 +230,7 @@ add_image_size('related-thumb', 214, 214, true);
 
 
 function custom_excerpt_length( $length ) {
-    return 120;
+    return 60;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 

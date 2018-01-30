@@ -45,7 +45,7 @@ $(window).scroll(function () {
 });
 
 
-$(".entry-title a,.entry-title,.detail h3,span.company").each(function() {
+$(".entry-title a").each(function() {
   var wordArray = $(this).text().split(" ");
   if (wordArray.length > 1) {
     wordArray[wordArray.length-2] += "&nbsp;" + wordArray[wordArray.length-1];
