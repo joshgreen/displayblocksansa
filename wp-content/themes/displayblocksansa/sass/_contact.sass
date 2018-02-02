@@ -23,6 +23,35 @@
 
 .wpcf7-textarea
   resize: none
+
+.form-submit-contact
+  text-align: center
+
+.wpcf7-submit
+  font-weight: 600
+  text-decoration: none
+  display: inline-block
+  +link-colors(white, white, white, white, white)
+  background: $db-primaryblue
+  font-size: 1.5em
+  padding: 0.8rem 1.5rem
+  margin: 2rem 0 0 0
+  apperance: none
+  border: 0
+  &:hover
+    +transform(translateY(-1px))
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08)
+    +transition(all 0.1s ease)
+  &:focus, &:active
+    +box-shadow(none)
+    +transform(translateY(1px))
+
+.contact-intro
+  +vpad
+  +listreset
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+
 /*!
   Contact Ends
   */

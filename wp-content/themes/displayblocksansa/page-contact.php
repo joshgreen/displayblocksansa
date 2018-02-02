@@ -32,52 +32,42 @@ get_header(); ?>
 
 
     <div class="max">
-        <ul class="contact-intro">
-            <li>
-                <h4>New Business</h4>
-                <div class="details">
-                    <p>For all new business and general enquiries please contact our client services team.</p>
-                    <p>
-                        Sales<br>
-                        <a href="mailto:info@displayblock.com">info@displayblock.com</a>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <h4>Visit us</h4>
-                <div class="details">
-                    <p>
-                        2 Sheen Road<br>
-                        Richmond<br>
-                        TW9 1AE<br></p>
-                        <p>Tube: Richmond</p>
-                </div>
-            </li>
-            <li>
-                <h4>Talk to us</h4>
-                <div class="details">
-                    <p>
-                        0208 973 2335<br>
-                        <a href="https://twitter.com/displayblock">@displayblock</a>
-                    </p>
-                </div>
-            </li>
-        </ul>
-    </div>
-</div>
-<div class="contact-form">
-    <div class="max bmar">
         <div class="inner">
-            <h3>Send us a message</h3>
-
-            <p>If you would just like to get in touch or have a message for us please us the form below.</p>
-
-
+            <ul class="contact-intro">
+                <li>
+                    <h4>New Business</h4>
+                    <div class="details">
+                        <p>For all new business and general enquiries please contact our client services team.</p>
+                        <p>
+                            Sales<br>
+                            <a href="mailto:info@displayblock.com">info@displayblock.com</a>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <h4>Visit us</h4>
+                    <div class="details">
+                        <p>
+                            2 Sheen Road<br>
+                            Richmond<br>
+                            TW9 1AE<br></p>
+                            <p>Tube: Richmond</p>
+                    </div>
+                </li>
+                <li>
+                    <h4>Talk to us</h4>
+                    <div class="details">
+                        <p>
+                            0208 973 2335<br>
+                            <a href="https://twitter.com/displayblock">@displayblock</a>
+                        </p>
+                    </div>
+                </li>
+            </ul>
         </div> <!-- .inner -->
 
-    </div> <!-- .max bmar -->
-
-</div> <!-- .contact-form -->
+    </div>
+</div>
 
 <div class="signup-form background-blue">
 <a name="subscribe"></a>
@@ -123,7 +113,7 @@ get_header(); ?>
             <h4>Want to become and email star</h4>
             <h3>Want to work with us</h3>
             <p>
-                We currently dont have any vacancies but are always on the look out for quality people. If you think you’d be a good fit please feel free to introduce yourself.</p>
+                We currently dont have any vacancies but are always on the look out for quality people. If you think you’d be a good fit please feel free to introduce yourself on our <a href="/careers">careers page</a>.</p>
 
                 <p>We never work with recruitment agencies and we also never outsource our work.</p>
         </div> <!-- .inner -->
