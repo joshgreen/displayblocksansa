@@ -22,11 +22,27 @@
 .api-single
   border: 1px solid $db-lightgrey
   border-radius: 8px
+  overflow: hidden
   a
     +link-colors($db-text,$db-text,$db-text,$db-text,$db-text)
 
+.api-logo
+  min-height: 220px
+  height: 220px
+  +breakpoint(medium)
+    height: 150px
+    min-height: 150px
+  +breakpoint(small)
+    height: 150px
+    min-height: 150px
+  +breakpoint(verysmall)
+    height: 150px
+    min-height: 150px
+  img
+    +vertical-align
+
 .api-description
-  padding: 0 1rem
+  padding: 1rem 1rem 0 1rem
 
 .zapier
   color: $db-grey1

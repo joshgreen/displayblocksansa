@@ -6,9 +6,6 @@
  */
 
 get_header(); ?>
-<div class="powder">
-    <div class="max bmar">
-              <div class="blogpage group">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
@@ -29,10 +26,4 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
-        </div> <!-- .blogpage -->
-    </div>
-
-</div> <!-- .powder -->
 <?php get_footer(); ?>
