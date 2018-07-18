@@ -35,7 +35,7 @@ get_header(); ?>
   <section class="displayblock-staff">
     <div class="inner">
       <div class="banner">
-        <h1>The Management Team</h1>
+        <h1>Our team</h1>
       </div>
       <ul class="staff-list">
         <li class="staff-member">
@@ -51,7 +51,7 @@ get_header(); ?>
           </p>
         </div>
         <div class="staff-pic">
-          <img src="<?php bloginfo('template_url'); ?>/images/about-us-mike.png" alt="Mike Parry" width="" height="">
+          <img src="<?php bloginfo('template_url'); ?>/images/about-us-mike.png" alt="Mike Parry profile picture" width="" height="">
         </div>
         </li>
         <li class="staff-member">
@@ -68,23 +68,7 @@ get_header(); ?>
             </p>
           </div>
           <div class="staff-pic">
-            <img src="<?php bloginfo('template_url'); ?>/images/about-us-tony.png" alt="Mike Parry" width="" height="">
-          </div>
-        </li>
-        <li class="staff-member">
-          <div class="staff-text">
-            <h4 class="job-title">
-              Creative Director
-            </h4>
-            <h3 class="staff-name">
-              Josh Green
-            </h3>
-            <p>
-              has vast experience in email marketing and has been at the forefront of responsive and spongy email design and coding. His understanding of how design and coding mesh together to create the best user experience is unparalleled. He brings this knowledge and a passion for getting it right to absolutely everything he does.
-            </p>
-          </div>
-          <div class="staff-pic">
-            <img src="<?php bloginfo('template_url'); ?>/images/about-us-josh.png" alt="Mike Parry" width="" height="">
+            <img src="<?php bloginfo('template_url'); ?>/images/about-us-tony.png" alt="Tony Macpherson profile picture" width="" height="">
           </div>
         </li>
         <li class="staff-member">
@@ -102,9 +86,42 @@ get_header(); ?>
             </p>
           </div>
           <div class="staff-pic">
-            <img src="<?php bloginfo('template_url'); ?>/images/about-us-mel.png" alt="Mike Parry" width="" height="">
+            <img src="<?php bloginfo('template_url'); ?>/images/about-us-mel.png" alt="Mel Jewell profile picture" width="" height="">
           </div>
         </li>
+        <li class="staff-member">
+          <div class="staff-text">
+            <h4 class="job-title">
+              Creative Director
+            </h4>
+            <h3 class="staff-name">
+              Josh Green
+            </h3>
+            <p>
+              has vast experience in email marketing and has been at the forefront of responsive and spongy email design and coding. His understanding of how design and coding mesh together to create the best user experience is unparalleled. He brings this knowledge and a passion for getting it right to absolutely everything he does.
+            </p>
+          </div>
+          <div class="staff-pic">
+            <img src="<?php bloginfo('template_url'); ?>/images/about-us-josh.png" alt="Josh Green profile picture" width="" height="">
+          </div>
+        </li>
+        <li class="staff-member">
+          <div class="staff-text">
+            <h4 class="job-title">
+              Senior Email Developer
+            </h4>
+            <h3 class="staff-name">
+              Adrian Young
+            </h3>
+            <p>
+              Lacinia purus euismod tempor feugiat lectus lobortis enim conubia ultricies tristique aptent congue aenean urna rhoncus phasellus turpis class vulputate vestibulum bibendum scelerisque gravida. Lacinia purus euismod tempor feugiat lectus lobortis enim.
+            </p>
+          </div>
+          <div class="staff-pic">
+            <img src="<?php bloginfo('template_url'); ?>/images/about-us-adrian-young.png" alt="Adrian Young profile picture" width="" height="">
+          </div>
+        </li>
+
       </ul>
     </div>
   </section>

@@ -23,7 +23,11 @@
 
         <?php if ( 'post' == get_post_type() ) : ?>
         <div class="entry-meta">
-            <?php displayblock_posted_on(); ?>
+            <!-- <?php displayblock_posted_on(); ?> -->
+            Posted by Mel
+            <div style="max-width: 160px">
+                <img src="<?php bloginfo('template_url'); ?>/images/mel-profile.png" alt="">
+            </div>
         </div><!-- .entry-meta -->
         <?php endif; ?>
 
