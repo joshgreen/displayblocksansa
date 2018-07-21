@@ -24,6 +24,7 @@ xmlrpc.php
 .DS_Store
 .htaccess
 .sass-cache/
+.phpintel
 bs-config.js
 node_modules/
 wp-content/advanced-cache.php
@@ -37,4 +38,4 @@ wp-content/wp-cache-config.php
 wp-content/plugins/git
 wp-content/themes/displayblocktheward/
 wp-content/themes/displayblockthewaif/
-wp-content/languages/git add
+wp-content/languages/
